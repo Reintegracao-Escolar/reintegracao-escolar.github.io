@@ -1,0 +1,30 @@
+body{
+    background-color: #DADADA;
+}
+
+.cornav{
+    background-color: #001D3D;
+    color: #DADADA;
+    border-radius: 0 0 18px 18px;
+}
+
+footer{
+    background-color: #001D3D;
+    color: #DADADA;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.active{
+    color: #FFA500 !important;
+    font-weight: bold;
+}
+
+@media (max-width: 575.98px){
+    .btnnav{
+        display: flex;
+        justify-content: start;
+    }
+}

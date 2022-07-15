@@ -8,6 +8,20 @@ body{
     border-radius: 0 0 18px 18px;
 }
 
+
+
+.active{
+    color: #25A18E !important;
+    font-weight: bold;
+}
+
+.cadastro{
+    background-color: #25A18E;
+}
+
+
+
+
 footer{
     background-color: #001D3D;
     color: #DADADA;
@@ -15,11 +29,6 @@ footer{
     position: absolute;
     left: 0;
     width: 100%;
-}
-
-.active{
-    color: #FFA500 !important;
-    font-weight: bold;
 }
 
 @media (max-width: 575.98px){

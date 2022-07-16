@@ -1,0 +1,70 @@
+/* Estrutura do site
+-------------------------------------------------*/
+
+body{
+    background-color: #DADADA;
+}
+
+.cornav{
+    background-color: #001D3D;
+    color: #DADADA;
+    border-radius: 0 0 18px 18px;
+}
+
+
+
+.active{
+    color: #25A18E !important;
+    font-weight: bold;
+}
+
+.cadastro{
+    background-color: #25A18E;
+}
+
+
+/* Formatação do conteúdo
+-------------------------------------------------*/
+
+
+/* Formatação do rodapé
+-------------------------------------------------*/
+
+footer{
+    background-color: #001D3D;
+    color: #DADADA;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+@media (max-width: 575.98px){
+    .btnnav{
+        display: flex;
+        justify-content: start;
+    }
+}
+
+/* Breakpoints responsivos
+-------------------------------------------------*/
+
+@media (max-width: 575.98px) { /* Extra small */
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { /* Small */
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { /* Medium */
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { /* Large */
+    
+}
+
+@media (min-width: 1200px) { /* Extra large */
+    
+}

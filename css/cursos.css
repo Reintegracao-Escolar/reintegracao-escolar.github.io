@@ -2,16 +2,24 @@
 -------------------------------------------------*/
 
 body{
-    background-color: #DADADA;
+    font: 16px Helvetica, Arial, sans-serif;
+    background: url(../img/fundo-cursos.jpg);
+    background-attachment: fixed;
+    
 }
+
+html, body, #corpo {
+    height: 100%;
+}
+
+/* Formatação do topo
+-------------------------------------------------*/
 
 .cornav{
     background-color: #001D3D;
     color: #DADADA;
     border-radius: 0 0 18px 18px;
 }
-
-
 
 .active{
     color: #25A18E !important;
@@ -22,9 +30,20 @@ body{
     background-color: #25A18E;
 }
 
-
-/* Formatação do conteúdo
+/* Formatação do corpo
 -------------------------------------------------*/
+
+h2 {
+    color: #DADADA;
+}
+
+#corpo-2 {
+    background-color: #DADADA;
+}
+
+#corpo-3 h4 {
+    color: #FFA500;
+}
 
 
 /* Formatação do rodapé

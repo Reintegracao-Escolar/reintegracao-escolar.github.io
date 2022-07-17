@@ -2,42 +2,33 @@
 <html lang="pt-Br">
 
 <head>
-    <!-- Meta tags obrigatórias -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="educação, curso, recode, recode pro, escola">
     <meta name="description" content="Solução para a falta de interesse escolar">
 
-    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
-    <!-- Estilo CSS -->
     <link rel="stylesheet" href="css/estilo.css">
-
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
         integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-
-    <!-- Normalize CSS -->
     <link rel="stylesheet" href="css/normalize.css">
-
-    <!-- Ícone -->
     <link rel="icon" href="img/logo.png">
 
     <title>Reintegração Escolar</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark cornav ">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" width="75" alt=""></a>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="75" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarText">
+                <div class="collapse navbar-collapse " id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link text-white active" aria-current="page" href="index.html">Home</a>
@@ -46,10 +37,10 @@
                             <a class="nav-link text-white" href="sobre.html">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="contato.html">Contato</a>
+                            <a class="nav-link text-white" href="cursos.html">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="cursos.html">Cursos</a>
+                            <a class="nav-link text-white" href="contato.html">Contato</a>
                         </li>
                     </ul>
                     <span class="navbar-text">
@@ -58,7 +49,7 @@
                                 <a href="login.html" class="nav-link text-white">Login</a>
                             </li>
                             <li class="nav-item cadastro rounded-3">
-                                <a href="cadastro.html" class="nav-link text-white">Cadastro</a>
+                                <a href="cadastro.html" class="nav-link">Cadastro</a>
                             </li>
                         </ul>
                     </span>
@@ -66,7 +57,73 @@
             </div>
         </nav>
     </header>
-
+    <div class="container-fluid bg-banner">
+        <div class="container">
+            <section class="row d-flex align-items-center">
+                <section class="col">
+                    <p class="h1 text-white">
+                        Reintegração Escolar
+                    </p>
+                    <p class="display-6 text-white">
+                        A plataforma tem como principal intuito complementar o aprendizado escolar de maneira
+                        tecnológica com o objetivo de resgatar e estimular o interesse aos estudos, com o objetivo de
+                        resgatar e estimular o interesse aos estudos
+                    </p>
+                </section>
+                <section class="col">
+                    <img src="img/Home/Teacher student-pana.png" class="img-fluid" alt="">
+                </section>
+            </section>
+        </div>
+        <div class="container-fluid">
+        </div>
+    </div>
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <section class="row d-flex align-items-center">
+                <section class="col d-flex justify-content-center col-lg-4">
+                    <img src="img/Home/Knowledge-pana.png" class="img-fluid" alt="">
+                </section>
+                <section class="col">
+                    <p class="h3">
+                        Conheça o projeto
+                    </p>
+                    <p class="lead">
+                        Projeto que tem o intuito de fazer o aluno sentir interesse novamente em estudar, de forma diferente e ludica.
+                    </p>
+                    <button onclick="window.location.href = 'sobre.html'" type="button" class="btn cadastro rounded-3 text-white">Veja mais</button>
+                </section>
+            </section>
+            <section class="row d-flex align-items-center">
+                <section class="col">
+                    <p class="h3">
+                        Cursos
+                    </p>
+                    <p class="lead">
+                        Conheça como funciona a nossa forma de ensino e como isso pode mudar sua forma e aprender.
+                    </p>
+                    <button onclick="window.location.href = 'cursos.html'" type="button" class="btn cadastro rounded-3 text-white">Veja mais</button>
+                </section>
+                <section class="col d-flex justify-content-center col-lg-4">
+                    <img src="img/Home/Learning-pana.png" class="img-fluid"  alt="">
+                </section>
+            </section>
+        </div>
+        <div class="container pb-5 d-flex justify-content-center align-items-center">
+            <section class="col-lg-6 d-flex justify-content-center">
+                <img src="img/Home/Get in touch-bro.png" class="img-fluid" width="50%" alt="">
+            </section>
+            <section>
+                <p class="h1">
+                    Entre em contato
+                </p>
+                <p class="lead">
+                    Tire suas dúvidas sobre o projeto,<br> nos  mandando uma mensagem.
+                </p>
+                <button onclick="window.location.href = 'contato.html'" type="button" class="btn cadastro rounded-3 text-white">Envie sua mensagem</button>
+            </section>
+        </div>
+    </div>
     <footer class="text-center text-lg-start text-white">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <!-- <div class="me-5 d-none d-lg-block">
@@ -101,7 +158,7 @@
                             <i class="fas fa-gem me-3"></i>Reintegração Escolar
                         </h6>
                         <p>
-                            Mini sobre aqui
+                            É um projeto voltado para o estímulo da educação através da tecnologia.
                         </p>
                     </div>
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -133,7 +190,7 @@
                             <i class="fas fa-envelope me-3"></i>
                             email@examplo.com
                         </p>
-                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <!-- <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p> -->
                     </div>
                 </div>
             </div>
@@ -143,10 +200,6 @@
             <a class="text-reset fw-bold" href="index.html">Reintegração Escolar</a>
         </div>
     </footer>
-
-
-
-    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
         crossorigin="anonymous"></script>
@@ -154,5 +207,4 @@
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

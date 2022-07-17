@@ -1,30 +1,31 @@
-body{
+body {
     background-color: #DADADA;
 }
 
-.cornav{
+.cornav {
     background-color: #001D3D;
     color: #DADADA;
-    border-radius: 0 0 18px 18px;
+    border-radius: 0 0 0px 0px;
 }
 
 
 
-.active{
+.active {
     color: #25A18E !important;
     font-weight: bold;
 }
 
-.cadastro{
+.cadastro {
     background-color: #25A18E;
 }
 
-.cadastro:hover{
-    background-color: #FFA500;
+.cadastro:hover {
+    background-color: #208f7e;
+    color: #ffffff !important;
 }
 
 .cadastro a:hover {
-    border: none;
+    color: #ffffff !important;
 }
 
 .login {
@@ -35,13 +36,27 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    border-bottom: 2px solid #FFA500;
+li a:hover {
+    color: #25A18E !important;
 }
 
+.bg-banner {
+    background-color: #001D3D;
+}
 
+.bg-conteudo {
+    background-color: #25A18E !important;
+}
 
-footer{
+.display-6{
+    font-size: 1.7rem !important;
+}
+
+.lead{
+    font-size: 1.55rem !important;
+}
+
+footer {
     background-color: #001D3D;
     color: #DADADA;
     border-radius: 10px 10px 0 0;
@@ -50,8 +65,8 @@ footer{
     width: 100%;
 }
 
-@media (max-width: 575.98px){
-    .btnnav{
+@media (max-width: 575.98px) {
+    .btnnav {
         display: flex;
         justify-content: start;
     }

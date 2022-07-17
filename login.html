@@ -30,7 +30,7 @@
     <title>Reintegração Escolar</title>
 </head>
 
-<body>
+<body id="corpologin">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark cornav ">
             <div class="container-fluid ">
@@ -88,33 +88,40 @@
                             <label for="floatingPassword">Senha</label>
                         </div>
                         <a href="#">
-                            <p style="text-align:right">Esqueci a senha</p>
+                            <p id="corEsenha" style="text-align:right"  >Esqueci a senha</p>
                         </a>
                         <div class="d-grid gap-2 mb-3">
                             <input class="btn btn-primary" type="submit" value="Entrar">
                         </div>
-                        <h5><p style="text-align: center;">Entrar com:</p></h5>
+                        <h5>
+                            <p style="text-align: center;">Entrar com:</p>
+                        </h5>
 
-                        <div class="form-floating" style="text-align: center;">
-                            <a href="#"> <img src="./img/login_google.png" alt="" height="30px"> </a>
-                            <a href="#"> <img src="./img/login_facebook.png" alt="" > </a>
+                        <div id="botaologredesocial" class="form-floating" style="text-align: center;">
+                            <a href="#"> <img src="./img/login_google.png" alt="" height="20px"> </a>
+                            <a href="#"> <img src="./img/login_facebook.png" alt="" height="20px"> </a>
                         </div>
 
                     </div>
 
                 </div>
 
-
-
             </div>
 
-            <div class="col">
-                <div class="container-fuid flex">
+            <div id="coluna2" class="col">
+                <div class="container-fuid flex d-none d-md-block ">
+        
                     <img src="./img/tela_login.png" class="w-75">
                 </div>
             </div>
+
+
         </div>
-    </div>
+        
+
+    
+
+</div> <!--fim container coluna -->
 
 
     <!--INICIO RODAPE-->

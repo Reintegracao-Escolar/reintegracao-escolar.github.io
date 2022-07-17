@@ -1,6 +1,10 @@
-#linha{
 
-    border: 1px dotted #001d3d;
+/*estilo login */
+
+#corpologin{
+
+background-color: #25A18E;
+
 }
 
 
@@ -8,18 +12,41 @@
     border-radius: 20px;
 }
 
-.container-form{
-    background-color: black;
-    color:white;
+#coluna2{
+  text-align: center;
+
 }
 
 .input-collor{
     color: black !important;
 }
 
-body{
+
+#corEsenha{
+    color: white;
+}
+
+
+
+.container-form{
+    background-color: #001D3D;
+    color:white;
+}
+
+#botaologredesocial a:hover { 
+
+    border: none;
+
+}
+
+
+/*estilo cadastro */
+
+#corpocad{
+
     background:#001D3D;
 }
+
 .form-label{
     color:white;
 }
@@ -27,3 +54,23 @@ body{
 .form-check-label{
     color:white;
 }
+
+#linha{
+
+    border: 1px dotted #eaeef1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

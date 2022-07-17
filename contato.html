@@ -2,53 +2,71 @@
 <html lang="pt-Br">
 
 <head>
+    <!-- Meta tags obrigatórias -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilo.css">
     <meta name="keywords" content="educação, curso, recode, recode pro, escola">
     <meta name="description" content="Solução para a falta de interesse escolar">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
         integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+
+    <!-- Normalize CSS -->
     <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Ícone -->
+    <link rel="icon" href="img/logo.png">
+
     <title>Reintegração Escolar</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark cornav ">
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="#"><img src="img/Ativo 5@72x.png" width="75" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="./sobre.html">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="./contato.html">Contato</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    <ul class="navbar-nav">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark cornav ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" width="75" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="./login.html">Login</a>
+                            <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item cadastro rounded-3">
-                            <a class="nav-link text-white" href="./cadastro.html">Cadastro</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="cursos.html">Cursos</a>
                         </li>
                     </ul>
-                </span>
+                    <span class="navbar-text">
+                        <ul class="navbar-nav">
+                            <li class="nav-item login">
+                                <a href="login.html" class="nav-link text-white">Login</a>
+                            </li>
+                            <li class="nav-item cadastro rounded-3">
+                                <a href="cadastro.html" class="nav-link text-white">Cadastro</a>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
 
     <div class="container p-5">
@@ -150,6 +168,14 @@
             <a class="text-reset fw-bold" href="index.html">Reintegração Escolar</a>
         </div>
     </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>

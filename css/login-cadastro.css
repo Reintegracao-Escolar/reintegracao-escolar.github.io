@@ -1,10 +1,22 @@
 #linha{
 
     border: 1px dotted #001d3d;
-
 }
 
 
 .border-white{
     border-radius: 20px;
+}
+
+.container-form{
+    background-color: black;
+    color:white;
+}
+
+.input-collor{
+    color: black !important;
+}
+
+body{
+    background:#001D3D;
 }

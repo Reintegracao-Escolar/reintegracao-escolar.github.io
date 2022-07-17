@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
         integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css"  href="css/login-cadastro.css">
     <title>Reintegração Escolar</title>
 </head>
 
@@ -28,22 +29,22 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link  text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link  text-white" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Sobre</a>
+                        <a class="nav-link text-white" href="./sobre.html">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contato</a>
+                        <a class="nav-link text-white" href="./contato.html">Contato</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-white">Login</a>
+                            <a class="nav-link text-white" href="./login.html">Login</a>
                         </li>
                         <li class="nav-item cadastro rounded-3">
-                            <a class="nav-link text-white">Cadastro</a>
+                            <a class="nav-link text-white" href="./cadastro.html">Cadastro</a>
                         </li>
                     </ul>
                 </span>
@@ -52,9 +53,8 @@
     </nav>
     <!--FIM MENU TOPO-->
 
-
-    <div class="container">
-
+<!--inicio formulario-->
+    <div class="container p-5">
 
         <form class="row g-3">
 
@@ -68,14 +68,13 @@
                     <option selected> Escolha </option>
                     <option>Estudante</option>
                     <option>Professor</option>
+                    <option>Parceiro</option>
                 </select>
             </div>
             <div class="col-md-2">
                 <label for="inputZip" class="form-label">Telefone com DDD</label>
                 <input type="text" class="form-control" id="inputZip">
             </div>
-
-
 
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -87,47 +86,147 @@
             </div>
 
             <div class="col-md-6">
-                <label for="inputCity" class="form-label">Nome Completo</label>
+                <label for="inputCity" class="form-label">Endereço completo</label>
                 <input type="text" class="form-control" id="inputCity">
             </div>
             <div class="col-md-4">
-                <label for="inputState" class="form-label">Você é?</label>
-                <select id="inputState" class="form-select">
-                    <option selected> Escolha </option>
-                    <option>Estudante</option>
-                    <option>Professor</option>
+                <label for="inputState" class="form-label">Estado</label>
+
+                <select id="UF" name="UF" class="form-select">
+                    <option value="">Selecione</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
                 </select>
+
             </div>
             <div class="col-md-2">
-                <label for="inputZip" class="form-label">Telefone com DDD</label>
+                <label for="inputZip" class="form-label">CEP</label>
                 <input type="text" class="form-control" id="inputZip">
             </div>
+<!--fim primeira parte formulario-->
 
+<!--inicio check box-->
+            <div class="container mt-4">
+                <div class="row row-cols-5">
 
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Aula de Reforço
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Dinâmica de aula diferente
+                            </label>
+                        </div>
+                    </div>
 
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Aprenda Jogando
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Falta de interesse nas aulas
+                            </label>
+                        </div>
+                    </div>
 
-            <div class="col-12">
-                <label for="inputAddress" class="form-label">Address</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Evasão escolar
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Falta de motivação
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                               Complementar Aprendizado
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Estimular Alunos
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Parceria
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                               OUTRA PALAVRA
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <div class="col-12">
-                <label for="inputAddress2" class="form-label">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-
+            <!--fim check box-->
+<hr id="linha">
 
             <div class="col-12">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck">
                     <label class="form-check-label" for="gridCheck">
-                        Concordo com os <a href="#">Termos de uso e Política de privacidade</a>
+                        Concordo com os <a href="#"><strong>Termos de uso e Política de privacidade</strong></a>
                     </label>
                 </div>
             </div>
             <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </form>
+        <!--fim formulario-->
 
 
 

@@ -13,37 +13,38 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
         integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/login-cadastro.css">
     <title>Reintegração Escolar</title>
 </head>
 
 <body>
     <!--INICIO MENU TOPO-->
     <nav class="navbar navbar-expand-lg navbar-dark cornav ">
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="#"><img src="img/Ativo 5@72x.png" width="75" alt=""></a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/Ativo 5@72x.png" width="75px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarText">
+                <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link  text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-white" aria-current="page" href="./index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Sobre</a>
+                        <a class="nav-link text-white" href="./sobre.html">SOBRE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contato</a>
+                        <a class="nav-link text-white" href="./contato.html">CONTATO</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white">Login</a>
+                            <a class="nav-link active text-white" href="./login.html">LOGIN</a>
                         </li>
                         <li class="nav-item cadastro rounded-3">
-                            <a class="nav-link text-white">Cadastro</a>
+                            <a class="nav-link text-white" href="./cadastro.html">CADASTRO</a>
                         </li>
                     </ul>
                 </span>
@@ -58,25 +59,28 @@
             <div class="col">
 
 
-                <div class="border border-4 border-white m-5 mb-5">
+                <div class="border border-4 border-white m-5 mb-5 container-form">
                     <div class="container p-4">
-                        <h5 class="text-center mb-3 ">Faça aqui seu login</h5>
-                        <div class="form-floating mb-3">
+                        <h5 class="text-center mb-3">Faça aqui seu login</h5>
+                        <div class="form-floating mb-3 input-collor">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Email</label>
                         </div>
-                        <div class="form-floating">
+                        <div class="form-floating input-collor">
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                             <label for="floatingPassword">Senha</label>
                         </div>
-                        <a href="#" > <p  style="text-align:right">Esqueci a senha</p></a>
+                        <a href="#">
+                            <p style="text-align:right">Esqueci a senha</p>
+                        </a>
                         <div class="d-grid gap-2 mb-3">
                             <input class="btn btn-primary" type="submit" value="Entrar">
                         </div>
-                        <p>Não tem conta? Pode fazer seu cadastro com:</p>
-                        <div class="form-floating" style="margin-left: 35%; margin-right: 35%; justify-content: center" >
-                           <a  href="#" > <img src="img/Gmail-icon.png" alt="" > </a> 
-                           <a  href="#" > <img src="img/facebook-icon.png" alt="" > </a> 
+                        <h5><p style="text-align: center;">Entrar com:</p></h5>
+
+                        <div class="form-floating" style="text-align: center;">
+                            <a href="#"> <img src="./img/login_google.png" alt="" height="30px"> </a>
+                            <a href="#"> <img src="./img/login_facebook.png" alt="" > </a>
                         </div>
 
                     </div>
@@ -88,9 +92,8 @@
             </div>
 
             <div class="col">
-                NÃO ACHEI A IMAGEM
                 <div class="container-fuid flex">
-                    <img src="img/login.png" class="w-50">
+                    <img src="./img/tela_login.png" class="w-75">
                 </div>
             </div>
         </div>
@@ -140,19 +143,19 @@
                             Menu
                         </h6>
                         <p>
-                            <a href="#!" class="text-reset">Home</a>
+                            <a href="./index.html" class="text-reset">Home</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Sobre</a>
+                            <a href="./sobre.html" class="text-reset">Sobre</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Contato</a>
+                            <a href="./contato.html" class="text-reset">Contato</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Login</a>
+                            <a href="./login.html" class="text-reset">Login</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Cadastro</a>
+                            <a href="./cadastro.html" class="text-reset">Cadastro</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">

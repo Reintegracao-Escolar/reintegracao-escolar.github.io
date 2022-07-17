@@ -12,24 +12,6 @@ html, body, #corpo {
     height: 100%;
 }
 
-/* Formatação do topo
--------------------------------------------------*/
-
-.cornav{
-    background-color: #001D3D;
-    color: #DADADA;
-    border-radius: 0 0 18px 18px;
-}
-
-.active{
-    color: #25A18E !important;
-    font-weight: bold;
-}
-
-.cadastro{
-    background-color: #25A18E;
-}
-
 /* Formatação do corpo
 -------------------------------------------------*/
 

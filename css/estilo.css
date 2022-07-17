@@ -23,13 +23,20 @@ body{
     background-color: #FFA500;
 }
 
+.cadastro a:hover {
+    border: none;
+}
+
 .login {
     margin-right: 20px;
 }
 
-.login:hover {
+a {
+    text-decoration: none;
+}
+
+a:hover {
     border-bottom: 2px solid #FFA500;
-    transition: 1s;
 }
 
 

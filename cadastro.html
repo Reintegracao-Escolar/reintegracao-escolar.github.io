@@ -40,7 +40,7 @@
                 <span class="navbar-text">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white">Login</a>
+                            <a class="nav-link text-white">Login</a>
                         </li>
                         <li class="nav-item cadastro rounded-3">
                             <a class="nav-link text-white">Cadastro</a>
@@ -54,46 +54,85 @@
 
 
     <div class="container">
-        <div class="row">
-            <div class="col">
 
 
-                <div class="border border-4 border-white m-5 mb-5">
-                    <div class="container p-4">
-                        <h5 class="text-center mb-3 ">Faça aqui seu login</h5>
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email</label>
-                        </div>
-                        <div class="form-floating">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Senha</label>
-                        </div>
-                        <a href="#" > <p  style="text-align:right">Esqueci a senha</p></a>
-                        <div class="d-grid gap-2 mb-3">
-                            <input class="btn btn-primary" type="submit" value="Entrar">
-                        </div>
-                        <p>Não tem conta? Pode fazer seu cadastro com:</p>
-                        <div class="form-floating" style="margin-left: 35%; margin-right: 35%; justify-content: center" >
-                           <a  href="#" > <img src="img/Gmail-icon.png" alt="" > </a> 
-                           <a  href="#" > <img src="img/facebook-icon.png" alt="" > </a> 
-                        </div>
+        <form class="row g-3">
 
-                    </div>
-
-                </div>
-
-
-
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Você é?</label>
+                <select id="inputState" class="form-select">
+                    <option selected> Escolha </option>
+                    <option>Estudante</option>
+                    <option>Professor</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Telefone com DDD</label>
+                <input type="text" class="form-control" id="inputZip">
             </div>
 
-            <div class="col">
-                NÃO ACHEI A IMAGEM
-                <div class="container-fuid flex">
-                    <img src="img/login.png" class="w-50">
+
+
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Senha deve ter de 6 a 8 caracteres</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Você é?</label>
+                <select id="inputState" class="form-select">
+                    <option selected> Escolha </option>
+                    <option>Estudante</option>
+                    <option>Professor</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Telefone com DDD</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+
+
+
+
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Concordo com os <a href="#">Termos de uso e Política de privacidade</a>
+                    </label>
                 </div>
             </div>
-        </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+        </form>
+
+
+
+
+
     </div>
 
 

@@ -9,4 +9,4 @@ O projeto foi feito para que possamos ajudar alunos que perderam o interesse em 
 O R.E. (Reintegração Escolar) traz aulas interativas, aulas dinâmicas, pensando em melhorar a educação através de tecnologias que dão mais autonomia aos alunos, melhorando a comunicação entre estudantes e professores e aproximando os aprendizes da turma.
 
 # Paleta de Cores
-![image](https://user-images.githubusercontent.com/50535257/179426560-1aff2879-0a9e-4dd7-8d41-1f5d3fc1c4ea.png)
+![image](https://user-images.githubusercontent.com/50535257/179427056-e7328f2a-4e11-4bf9-b40b-de076364d647.png)

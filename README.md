@@ -40,7 +40,9 @@ By: Wilberson Roberto
 
 ![image](https://user-images.githubusercontent.com/50535257/179608470-9f2a5bf9-8be2-4f9b-ba8c-fe0ba2195a94.png)
 
-By:
+By: Valeria Gomes
+
+By: Carlos Junior
 
 ## Login e Cadastro
 
@@ -53,5 +55,3 @@ By:
 By: Valeria Gomes
 
 By: Carlos Junior
-
-

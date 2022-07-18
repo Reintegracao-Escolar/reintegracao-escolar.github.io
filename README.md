@@ -30,6 +30,7 @@ By: Daniel Souza
 ![image](https://user-images.githubusercontent.com/50535257/179608665-b1ff224c-1f34-494a-b484-357cc6250522.png)
 
 Design by: Daniel Souza
+
 Texto by: Caio Cesar
 
 ## Cursos
@@ -57,6 +58,7 @@ By:
 ![image](https://user-images.githubusercontent.com/50535257/179608511-6780d997-c700-49e7-b97e-ee8a9bf9b395.png)
 
 By: Valeria Gomes
+
 By: Carlos Junior
 
 

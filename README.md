@@ -10,3 +10,53 @@ O R.E. (Reintegração Escolar) traz aulas interativas, aulas dinâmicas, pensan
 
 # Paleta de Cores
 ![image](https://user-images.githubusercontent.com/50535257/179427056-e7328f2a-4e11-4bf9-b40b-de076364d647.png)
+
+# Prints da página
+
+## Home
+
+image.png
+
+image.png
+
+image.png
+
+By: Daniel Souza
+
+## Sobre
+
+image.png
+
+image.png
+
+Design by: Daniel Souza
+Texto by: Caio Cesar
+
+## Cursos
+
+image.png
+
+image.png
+
+image.png
+
+By: Wilberson Roberto
+
+## Contato
+
+image.png
+
+By:
+
+## Login e Cadastro
+
+image.png
+
+image.png
+
+image.png
+
+By: Valeria Gomes
+By: Carlos Junior
+
+

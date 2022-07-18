@@ -65,9 +65,16 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 575.98px) {
-    .btnnav {
+@media (max-width: 700px) {
+    .btnnav{
         display: flex;
         justify-content: start;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }

@@ -39,6 +39,13 @@ li a:hover {
     color: #25A18E !important;
 }
 
+.bg-banner {
+    background-color: #001D3D;
+}
+
+.bg-conteudo {
+    background-color: #25A18E !important;
+}
 
 .display-6{
     font-size: 1.7rem !important;
@@ -57,9 +64,16 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 1000px) {
     .btnnav {
         display: flex;
         justify-content: start;
     }
+    .img-responsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
+

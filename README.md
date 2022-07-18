@@ -26,7 +26,8 @@ By: Daniel Souza
 ## Sobre
 
 ![image](https://user-images.githubusercontent.com/50535257/179608377-c69b8dd1-a143-4cdc-a7bd-95ebe1db2331.png)
-image.png
+
+![image](https://user-images.githubusercontent.com/50535257/179608665-b1ff224c-1f34-494a-b484-357cc6250522.png)
 
 Design by: Daniel Souza
 Texto by: Caio Cesar

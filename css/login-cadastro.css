@@ -60,12 +60,20 @@ background-color: #25A18E;
     border: 1px dotted #eaeef1;
 }
 
+/*estilo recuperação de senha */
 
 
+.senha-cont{
+    display: flex;
+    
+}
 
-
-
-
+.senhacaixa{
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
 
 

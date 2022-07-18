@@ -1,7 +1,7 @@
-# Projeto-squad-32
+# Reintegração Escolar
 Tema do projeto: Falta de interesse pela escola
 
-Nome do projeto: Reintegração Escolar
+Número do squad: 032
 
 ##
 

@@ -19,6 +19,18 @@ h2 {
     color: #DADADA;
 }
 
+
+.cornav {
+    background-color: #001D3D;
+    color: #DADADA;
+    border-radius: 0 0 10px 10px !important;
+}
+
+.active {
+    color: #25A18E !important;
+    font-weight: bold;
+}
+
 #corpo-2 {
     background-color: #DADADA;
 }

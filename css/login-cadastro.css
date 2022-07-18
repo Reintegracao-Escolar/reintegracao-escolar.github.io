@@ -1,11 +1,63 @@
 
 /*estilo login */
 
+body {
+    background-color: #DADADA;
+}
+
+.cornav {
+    background-color: #001D3D;
+    color: #DADADA;
+    border-radius: 0 0 10px 10px !important;
+}
+
+
+.active {
+    color: #25A18E !important;
+    font-weight: bold;
+}
+
+.cadastro {
+    background-color: #25A18E;
+}
+
+.cadastro:hover {
+    background-color: #208f7e;
+    color: #ffffff !important;
+}
+
+.cadastro a:hover {
+    color: #ffffff !important;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #25A18E !important;
+}
+
+
+.display-6{
+    font-size: 1.7rem !important;
+}
+
+.lead{
+    font-size: 1.55rem !important;
+}
+
+
 #corpologin{
 
 background-color: #25A18E;
 
 }
+
 
 
 .border-white{
@@ -75,6 +127,15 @@ background-color: #25A18E;
    align-items: center;
 }
 
+
+footer{
+    background-color: #001D3D;
+    color: #DADADA;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
 
 
 

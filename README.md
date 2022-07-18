@@ -38,7 +38,7 @@ By: Wilberson Roberto
 
 ## Contato
 
-![image](https://user-images.githubusercontent.com/50535257/179608470-9f2a5bf9-8be2-4f9b-ba8c-fe0ba2195a94.png)
+![image](https://user-images.githubusercontent.com/109298084/179634930-eff09852-0b52-4404-99b5-b374718dafda.png)
 
 By: Valeria Gomes
 
@@ -48,9 +48,9 @@ By: Carlos Junior
 
 ![image](https://user-images.githubusercontent.com/50535257/179608485-88576db6-bec1-4cfc-b372-35fbe1b87bd5.png)
 
-![image](https://user-images.githubusercontent.com/50535257/179608501-2da38fe4-a50e-41d0-8ca4-cfd945d2f58f.png)
+![image](https://user-images.githubusercontent.com/109298084/179634987-30dbe1c6-8a4b-45f5-b3d2-2a03829f0590.png)
 
-![image](https://user-images.githubusercontent.com/50535257/179608511-6780d997-c700-49e7-b97e-ee8a9bf9b395.png)
+![image](https://user-images.githubusercontent.com/109298084/179635054-777eb73a-399a-474e-8e46-9ed12c266c13.png)
 
 By: Valeria Gomes
 

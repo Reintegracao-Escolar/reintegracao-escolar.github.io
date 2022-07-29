@@ -70,8 +70,22 @@ li a:hover {
     background-color: #DADADA;
 }
 
+.bg-jogando {
+    background-color: #001D3D;
+    padding: 20px;
+}
+
+#corpo-3 h3 {
+    color: #DADADA;
+    padding-bottom: 20px;
+}
+
 #corpo-3 h4 {
-    color: #FFA500;
+    color: #25A18E;
+}
+
+#corpo-3 p {
+    color: #fff;
 }
 
 

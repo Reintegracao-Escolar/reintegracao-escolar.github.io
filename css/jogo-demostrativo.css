@@ -53,6 +53,21 @@ body {
     color: #25A18E;
 }
 
+.creditos {
+  font-size: 0.7rem;
+  color: #dadada;
+  text-align: center;
+  margin-top: 600px;
+}
+
+.creditos a {
+  color: #25A18E;
+}
+
+.creditos a:hover {
+  color: #ffa500;
+}
+
 .start_btn button {
   font-size: 25px;
   font-weight: 500;

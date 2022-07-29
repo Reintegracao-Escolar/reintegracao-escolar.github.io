@@ -1,0 +1,17 @@
+body {
+    background-color: #dadada;
+}
+
+.creditos {
+    font-size: 0.7rem;
+    margin-top: 50px;
+    float: right;
+}
+
+.creditos a {
+    color: #25A18E;
+}
+
+.creditos a:hover {
+    color: #ffa500;
+}

@@ -19,51 +19,8 @@ h2 {
     color: #DADADA;
 }
 
-
-.cornav {
-    background-color: #001D3D;
-    color: #DADADA;
-    border-radius: 0 0 10px 10px !important;
-}
-
-
-.active {
-    color: #25A18E !important;
-    font-weight: bold;
-}
-
-.cadastro {
-    background-color: #25A18E;
-}
-
-.cadastro:hover {
-    background-color: #208f7e;
-    color: #ffffff !important;
-}
-
-.cadastro a:hover {
-    color: #ffffff !important;
-}
-
-.login {
-    margin-right: 20px;
-}
-
 a {
     text-decoration: none;
-}
-
-li a:hover {
-    color: #25A18E !important;
-}
-
-
-.display-6{
-    font-size: 1.7rem !important;
-}
-
-.lead{
-    font-size: 1.55rem !important;
 }
 
 #corpo-2 {
@@ -81,11 +38,25 @@ li a:hover {
 }
 
 #corpo-3 h4 {
-    color: #25A18E;
+    color: #ffa500;
 }
 
 #corpo-3 p {
     color: #fff;
+}
+
+.fonte {
+    margin-top: 50px;
+    font-size: 0.7rem;
+    float: right;
+}
+
+.fonte a {
+    color: #25A18E;
+}
+
+.fonte a:hover {
+    color: #DADADA;
 }
 
 
